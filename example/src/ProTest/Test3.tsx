@@ -15,7 +15,7 @@ const waitTime = (time: number = 100) => {
 
 export default function Test3() {
   const actionRef = useRef<{
-    reload: () => void;
+    reload(): void;
   }>();
   return (
     <>
