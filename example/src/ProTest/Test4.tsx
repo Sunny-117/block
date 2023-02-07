@@ -95,7 +95,7 @@ class CustomBoundary extends React.Component<
 
 const ErrorTriggerTestPage = () => {
   // default to throw error for snapshot test
-  const [error, setError] = useState<boolean>(true);
+  const [error, setError] = useState<boolean>(false);
   if (error) throw new Error("渲染发生了错误");
   return (
     <Button
