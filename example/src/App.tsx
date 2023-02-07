@@ -1,11 +1,12 @@
 import React from "react";
 import Test1 from "./ProTest/Test1";
+import ComponentsTest from "./ProTest/Test2";
 
 export default function App() {
   return (
     <div>
-      12
-      <Test1 />
+      {/* <Test1 /> */}
+      <ComponentsTest />
     </div>
   );
 }
